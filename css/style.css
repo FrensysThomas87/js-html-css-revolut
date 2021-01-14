@@ -63,7 +63,7 @@ nav ul li{
   color: #fff;
 }
 
-.dropdown-link.first{
+.dropdown-link.features{
   width: 913px;
   border: 1px solid black;
   right: 50px;
@@ -71,11 +71,11 @@ nav ul li{
   padding: 30px;
 }
 
-.dropdown-link.first div{
+.dropdown-link.features div{
   width: calc(100% / 4);
 }
 
-.dropdown-link.first div img{
+.dropdown-link.features div img{
   background-color: #cacacb;
   border-radius: 50%;
   width: 38px;
@@ -83,10 +83,21 @@ nav ul li{
   vertical-align: middle;
 }
 
-.dropdown-link.first div span {
+.dropdown-link.features div span {
 font-size: 20px;
 }
 
-.dropdown-link.first div p{
+.dropdown-link.features div p{
+  margin-top: 20px;
+}
+
+.dropdown-link.plans{
+  width: 200px;
+  border: 1px solid black;
+  height: 300px;
+
+}
+
+.dropdown-link.plans p{
   margin-top: 20px;
 }
