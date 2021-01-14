@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 30px 30px;
+}
+
+img{
+  width: 30px;
+  vertical-align: middle;
+}
+
+ul{
+  list-style: none;
+}
+
+.flex{
+  display: flex;
+}
+
+nav ul li{
+  display: inline-block;
+  padding-left: 50px;
+  font-size: 22px;
+  color: #cacacb;
+  cursor: pointer;
+}
+
+nav ul li:nth-child(2){
+  color: #000;
+
+}
