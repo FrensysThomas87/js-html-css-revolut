@@ -89,12 +89,31 @@ nav > ul > li:hover{
   width: calc(100% / 4);
 }
 
+.dropdown-link.features div:last-child{
+  width: 200px;
+  position: relative;
+}
+
+.dropdown-link.features div :last-child p{
+  color:#f1f1f1;
+}
+
+.special-p{
+  color: #66a1f3 !important;
+  position: absolute;
+  bottom: 26px;
+  right: 77px;
+  font-size: 10px;
+}
+
 .dropdown-link.features div img{
   background-color: #cacacb;
   border-radius: 50%;
   width: 38px;
   padding: 7px;
   vertical-align: middle;
+
+
 }
 
 .dropdown-link.features div span {
