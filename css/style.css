@@ -37,6 +37,10 @@ ul{
   display: none;
 }
 
+.active{
+  display: block;
+}
+
 nav ul li{
   display: inline-block;
   padding-right: 50px;
@@ -54,7 +58,6 @@ nav ul li{
 
  .button.uno{
   background-color: #cacacb;
-
   margin-right: 15px;
 }
 
@@ -94,5 +97,6 @@ font-size: 20px;
 
 .dropdown-link{
   width: 200px;
-
+  border-radius: 10px;
+  box-shadow:1px 1px 3px 2px #aabb;
 }
