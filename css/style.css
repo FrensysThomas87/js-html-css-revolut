@@ -65,7 +65,6 @@ nav ul li{
 
 .dropdown-link.features{
   width: 913px;
-  border: 1px solid black;
   right: 50px;
   top: 100px;
   padding: 30px;
@@ -87,17 +86,13 @@ nav ul li{
 font-size: 20px;
 }
 
-.dropdown-link.features div p{
+.dropdown-link p{
   margin-top: 20px;
 }
 
-.dropdown-link.plans{
+
+
+.dropdown-link{
   width: 200px;
-  border: 1px solid black;
-  height: 300px;
 
-}
-
-.dropdown-link.plans p{
-  margin-top: 20px;
 }
