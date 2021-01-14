@@ -12,6 +12,10 @@ body{
   color: #000;
 }
 
+.absolute{
+  position: absolute;
+}
+
 img{
   width: 30px;
   vertical-align: middle;
@@ -27,6 +31,10 @@ ul{
 
 .flex{
   display: flex;
+}
+
+.disp-none{
+  display: none;
 }
 
 nav ul li{
@@ -46,11 +54,37 @@ nav ul li{
 
  .button.uno{
   background-color: #cacacb;
-  
+
   margin-right: 15px;
 }
 
 .button.due{
   background-color: #000;
   color: #fff;
+}
+
+.dropdown-link.first{
+  width: 913px;
+  border: 1px solid black;
+  right: 50px;
+  top: 100px;
+  padding: 30px;
+}
+
+.dropdown-link.first div{
+  width: calc(100% / 4);
+  height: 200px;
+  border: 1px solid black;
+}
+
+.dropdown-link.first div img{
+  background-color: #cacacb;
+  border-radius: 50%;
+  width: 38px;
+  padding: 7px;
+  vertical-align: middle;
+}
+
+.dropdown-link.first div span {
+font-size: 20px;
 }
