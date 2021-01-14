@@ -73,8 +73,6 @@ nav ul li{
 
 .dropdown-link.first div{
   width: calc(100% / 4);
-  height: 200px;
-  border: 1px solid black;
 }
 
 .dropdown-link.first div img{
@@ -87,4 +85,8 @@ nav ul li{
 
 .dropdown-link.first div span {
 font-size: 20px;
+}
+
+.dropdown-link.first div p{
+  margin-top: 20px;
 }
