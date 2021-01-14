@@ -47,7 +47,14 @@ nav ul li{
   font-size: 22px;
   color: #cacacb;
   cursor: pointer;
+  transition: all 0.5s;
 }
+
+nav > ul > li:hover{
+  color:#000;
+}
+
+
 
 
 
@@ -91,6 +98,11 @@ font-size: 20px;
 
 .dropdown-link p{
   margin-top: 20px;
+}
+
+.dropdown-link p:hover{
+  color: #000;
+  transition: all 0.5s;
 }
 
 
