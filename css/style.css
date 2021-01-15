@@ -16,17 +16,19 @@ body{
   position: absolute;
 }
 
-img{
+ img{
   width: 30px;
   vertical-align: middle;
 }
 
 nav{
   justify-content: space-between;
+  align-items: center;
 }
 
 ul{
   list-style: none;
+
 }
 
 .flex{
